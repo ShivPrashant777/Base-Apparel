@@ -69,6 +69,7 @@ header {
             border-radius: 25px;
             border: none;
             padding: 13px 25px;
+            box-shadow: 0 3px 5px 1px hsla(0, 36%, 70%, 0.5);
         }
 
         input:focus, button:focus {
@@ -80,6 +81,7 @@ header {
         }
 
         button:hover{
+            background: linear-gradient(135deg, hsl(0, 100%, 97%), hsl(0, 100%, 89%));
             cursor: pointer;
         }
     }
@@ -131,6 +133,10 @@ header {
             input {
                 width: 50%;
             }
+
+            button {
+                padding: 13px 40px;
+            }
         }
     }
     .right {
@@ -142,6 +148,4 @@ header {
             right: 0;
         }
     }
-
-    
 }

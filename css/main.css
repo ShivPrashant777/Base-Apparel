@@ -69,6 +69,8 @@ header {
   border-radius: 25px;
   border: none;
   padding: 13px 25px;
+  -webkit-box-shadow: 0 3px 5px 1px rgba(206, 151, 151, 0.5);
+          box-shadow: 0 3px 5px 1px rgba(206, 151, 151, 0.5);
 }
 
 .left .input input:focus, .left .input button:focus {
@@ -92,6 +94,7 @@ header {
 }
 
 .left .input button:hover {
+  background: linear-gradient(135deg, #fff0f0, #ffc7c7);
   cursor: pointer;
 }
 
@@ -139,6 +142,9 @@ header {
   }
   .left .input input {
     width: 50%;
+  }
+  .left .input button {
+    padding: 13px 40px;
   }
   .right {
     width: 40%;

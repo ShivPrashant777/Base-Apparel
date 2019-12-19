@@ -48,13 +48,13 @@ header {
 }
 
 .left .input {
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 .left .input input {
-  margin: 20px 0 20px 60px;
-  padding: 15px 20px;
-  width: 60%;
+  margin: 20px 0 20px 80px;
+  padding: 15px 10%;
+  width: 40%;
   background: rgba(255, 255, 255, 0);
   color: #ce9797;
   border: 1px solid #ce9797;
